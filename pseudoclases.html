@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css"> 
+	a:hover{
+		text-decoration: none;
+		color: red;
+		font-weight: bold;
+		border-right: 1px solid #ccc;
+		border-bottom:  1px solid #ccc;
+		text-decoration: none;
+		padding: 2px;
+	}
+	a:active{
+		color: green;
+		font-weight: bold;
+	}
+	.miformulario input:focus{
+		background: #ccc;
+		width: 300px;
+	}
+	/*.milista li:first-child{
+		color: green;
+		font-weight: bold;
+	}
+	.milista li:last-child{
+		color: red;
+		font-weight: bold;
+	}*/
+	.milista li:nth-child(2n-1){
+		color: white;
+		background: black;
+	}
+	.milista li:nth-child(2n){
+		color: black;
+		background: white;
+	}
+	.milista li:hover {
+		background: red;
+	}																							
+
+</style>
+</head>
+<body>
+	<a href="javascript:alert('pseudoclases')">Enlace con pseudoclases</a>
+	<form class="miformulario">
+		<input type="text" name="txtnombre">
+		<br>
+		<input type="text" name="txtnombre">
+		<br>
+		<input type="text" name="txtnombre">
+		<br>
+		<input type="text" name="txtnombre">
+		<br>		
+	</form>
+	<ul class="milista">
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+		<li>Abril</li>
+		<li>Mayo</li>
+		<li>Junio</li>
+		<li>Julio</li>
+		<li>Agosto</li>
+		<li>Septiembre</li>
+		<li>Octubre</li>
+		<li>Noviembre</li>
+		<li>Diciembre</li>
+
+	</ul>
+</body>
+</html>
